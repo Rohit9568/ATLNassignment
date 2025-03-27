@@ -15,17 +15,21 @@ This project leverages cutting-edge technologies:
 ## Key Features
 
 ✨ **Intuitive User Interface**: Clean, responsive design with both light and dark editor themes to suit your preference. The dark theme provides enhanced readability with distinct color-coding for SQL elements.
+
 ✨ **Tab-Based Workflow**: Manage multiple SQL queries effortlessly with a tabbed interface, allowing you to work on different tasks simultaneously and switch between them seamlessly.
+
 ✨ **Intelligent SQL Query Editor**:
-    * **Syntax Highlighting**: Enhances readability and reduces errors by visually distinguishing SQL keywords and syntax.
-    * **Automatic Query Suggestion**: Speeds up query writing by suggesting relevant keywords and table/column names as you type.
-    * **Autocompletion**: Completes words with a simple press of the "Enter" key after a suggestion, further accelerating your workflow.
-    * **Line Wrapping**: Ensures long queries are easy to read without horizontal scrolling in the editor.
+    * Syntax Highlighting: Enhances readability and reduces errors by visually distinguishing SQL keywords and syntax.
+    * Automatic Query Suggestion: Speeds up query writing by suggesting relevant keywords and table/column names as you type.
+    * Autocompletion: Completes words with a simple press of the "Enter" key after a suggestion, further accelerating your workflow.
+    * Line Wrapping: Ensures long queries are easy to read without horizontal scrolling in the editor.
+
 ✨ **Database Object Explorer (Collapsible Sidebar)**:
     * Explore your database schema with a navigable list of tables, providing quick access to the data you need.
     * Clicking on a table in the sidebar automatically runs a `SELECT * FROM [tableName]` query, instantly displaying the table's contents.
     * The sidebar also displays the number of results and the time taken to fetch and render the data for quick performance insight.
     * Toggle the sidebar's visibility using a header button to maximize your workspace.
+
 ✨ **Interactive and Feature-Rich Results Table**:
     * **Resizable Columns**: Adjust column widths for optimal data viewing.
     * **Expandable Rows**: View complete data for rows with large content in a convenient pop-up.
@@ -33,12 +37,17 @@ This project leverages cutting-edge technologies:
     * **Header Sorting**: Sort data by clicking on column headers (ascending/descending).
     * **Horizontal and Vertical Scrolling**: Handle large datasets with comprehensive scrolling capabilities.
     * **Real-time Search and Filtering**: Quickly find specific data within results and columns using a dynamic search bar.
+
 ✨ **Query History (Recent Queries)**: Easily access and reuse recently executed or created queries from the sidebar.
+
 ✨ **Data Export**:
-    * **Export as CSV**: Download query results as a CSV file for use with spreadsheet software.
-    * **Export as JSON**: Export results as a JSON file for data interchange and web applications.
+    * Export as CSV: Download query results as a CSV file for use with spreadsheet software.
+    * Export as JSON: Export results as a JSON file for data interchange and web applications.
+
 ✨ **Fullscreen Mode**: Maximize your focus by toggling the application to fullscreen, expanding the editor and results area.
+
 ✨ **Local Session Persistence**: Your active session, including open tabs and query history, is automatically saved and restored on browser reload.
+
 ✨ **Welcoming First-Time Experience**: New users are greeted with a helpful welcome message and clear instructions on how to begin.
 
 ## Getting Started
@@ -51,19 +60,20 @@ This project leverages cutting-edge technologies:
 ### Installation
 
 1. Clone the repository
-   ```bash
-   git clone https://github.com/Rohit9568/ATLNassignment.git
-   cd modern-sql-editor
+    ```bash
+    git clone [https://github.com/Rohit9568/ATLNassignment.git](https://github.com/Rohit9568/ATLNassignment.git)
+    cd modern-sql-editor
+    ```
 
 2. Install dependencies
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 3. Start the development server
-   ```bash
-   npm run dev
-   ```
+    ```bash
+    npm run dev
+    ```
 
 4. Open your browser and navigate to `http://localhost:3000`
 
