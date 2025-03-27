@@ -32,7 +32,7 @@ This project uses modern technologies:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/modern-sql-editor.git
+   git clone https://github.com/Rohit9568/ATLNassignment.git
    cd modern-sql-editor
    ```
 
